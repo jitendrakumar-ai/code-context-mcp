@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code-context-mcp"
+version = "1.2.0"
+description = "Python MCP Server for AST Codebase Intelligence, Symbol Extraction, Cyclomatic Complexity & Refactoring Analysis."
+requires-python = ">=3.10"
+dependencies = []
+py-modules = ["code_context_mcp"]
+
+[project.scripts]
+code-context-mcp = "code_context_mcp:main"
